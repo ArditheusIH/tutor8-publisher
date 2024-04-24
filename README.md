@@ -9,4 +9,4 @@
 
 ![alt text](/spike1.png)
 
-![alt text](/spike.png)
+Spike diatas muncul karena mengirim data berkali-kali dengan cepat kepada Subscriber. Setiap kita menjalankan cargo run pada Publisher, ia akan membuat koneksi baru dan mengirim message ke Subscriber. Jika dalam waktu yang singkat kita terus mengirimkan data ke Subscriber, maka akan muncul spike akibat adanya koneksi dan pengiriman data yang tinggi ke Subscriber
